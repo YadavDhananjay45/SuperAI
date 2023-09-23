@@ -25,15 +25,16 @@
 .publications,
 .areas,
 .tools {
-  background-color: whitesmoke;
-  border-radius: 1rem;
+  background-color: #ffffff;
+  border-radius: 5px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 .guidebook {
   border-radius: 10px;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
 }
 
 .leftimg {
@@ -43,9 +44,10 @@
 .r1,
 .r2,
 .r3 {
-  background-color: whitesmoke;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
-    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  background-color: #ffffff;
+  /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   border-radius: 0.5rem;
 }
 .footlogo {
@@ -58,6 +60,18 @@
 .advanceimg {
   display: none;
   transform: translateY(-15rem);
+}
+.uplogo {
+  width: 6vw;
+}
+.zenlogo {
+  width: 5vw;
+}
+.getlogo {
+  width: 16vw;
+}
+.signlogo {
+  width: 4vw;
 }
 @media only screen and (min-width: 768px) {
   .rocketimg {
